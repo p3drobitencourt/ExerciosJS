@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/analisador/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div >
+           Número (entre 1 a 100 ):
+           <input type="number" name="fnum" id="fnum">
+           <input type="button" value="Adicionar" onclick="adicionar()">
+           <br> <br> <select name="flista" id="flista"></select>
+           <br> <input type="button" value="Finalizar" onclick="finalizar()">
+           
+        </div>
+        <div id="res">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Pedro</p>
+    </footer>
+    <script src="/analisador/analisador.js"></script>
+</body>
+</html>
